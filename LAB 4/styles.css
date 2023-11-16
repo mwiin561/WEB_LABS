@@ -1,4 +1,4 @@
-/* starting comment in css lol*/
+/* Reset some default styles and set a background color */
 body {
     margin: 0;
     padding: 0;
@@ -45,6 +45,22 @@ nav a {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
+    text-align: center;
+}
+
+.bio-section img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Legacy section styling */
+.legacy-section {
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
 /* Footer styling */
@@ -53,12 +69,4 @@ footer {
     padding: 10px;
     background-color: #333;
     color: #fff;
-}
-
-/* Responsive design */
-@media only screen and (max-width: 600px) {
-    .bio-section {
-        margin: 10px;
-        padding: 10px;
-    }
 }
